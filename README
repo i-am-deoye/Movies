@@ -1,0 +1,31 @@
+
+pod 'Swinject'
+
+Swinject is a lightweight dependency injection framework for Swift.
+Dependency injection (DI) is a software design pattern that implements Inversion of Control (IoC) for resolving dependencies. In the pattern, Swinject helps your app split into loosely-coupled components, which can be developed, tested and maintained more easily. Swinject is powered by the Swift generic type system and first class functions to define dependencies of your app simply and fluently.
+
+
+
+
+pod 'SwinjectStoryboard'
+
+SwinjectStoryboard is an extension of Swinject to automatically inject dependency to view controllers instantiated by a storyboard.
+
+
+pod 'SwinjectAutoregistration'
+
+SwinjectAutoregistration is an extension of Swinject that allows to automatically register your services and greatly reduce the amount of boilerplate code.
+
+
+
+# Pros
+- Architectural Seperation of concern and modularization
+- Class instantion segragation
+- Follow Dependency injection (DI) design pattern
+- Porject maintainability
+- Since its DI dependable, easy to unit test your code
+- Greate community for support
+
+# Cons
+- none at the moment.
+

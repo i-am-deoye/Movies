@@ -7,13 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4038F34A4194F04C673967DC /* Pods_MosesAyankoyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCF6BE20F33F1F1EA28DE7D /* Pods_MosesAyankoyaUITests.framework */; };
+		41FB6890B3F1C5E08375107A /* Pods_MosesAyankoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2D1CEC8C6D67B002916E8D /* Pods_MosesAyankoya.framework */; };
+		7EA370364820590ED0F6A31A /* Pods_MosesAyankoyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC11357C3E77349E36A989C /* Pods_MosesAyankoyaTests.framework */; };
+		A62764B72195E07B00F655BF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62764B62195E07B00F655BF /* BaseViewController.swift */; };
+		A62764BD2197245900F655BF /* SegueIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62764BC2197245900F655BF /* SegueIdentifier.swift */; };
+		A62764BF2198417C00F655BF /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62764BE2198417C00F655BF /* Dynamic.swift */; };
+		A65E4385223058350020EC0F /* MovieItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E4384223058350020EC0F /* MovieItemCell.swift */; };
+		A65E4387223059520020EC0F /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E4386223059520020EC0F /* MovieItem.swift */; };
+		A65E4389223060850020EC0F /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E4388223060850020EC0F /* MovieListViewController.swift */; };
+		A65E438B223060D10020EC0F /* MovieListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E438A223060D10020EC0F /* MovieListDataProvider.swift */; };
+		A65E438D223064210020EC0F /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E438C223064210020EC0F /* MovieDetailViewController.swift */; };
+		A65E438F223145F50020EC0F /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E438E223145F50020EC0F /* MovieListViewModel.swift */; };
+		A65E43912231492F0020EC0F /* MovieListRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E43902231492F0020EC0F /* MovieListRemoteRepository.swift */; };
+		A65E4393223158F20020EC0F /* movies_query_parameters.json in Resources */ = {isa = PBXBuildFile; fileRef = A65E4392223158F20020EC0F /* movies_query_parameters.json */; };
+		A65E439522315B180020EC0F /* GlobalFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E439422315B180020EC0F /* GlobalFuncs.swift */; };
+		A65E439722315F4D0020EC0F /* MovieListDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E439622315F4D0020EC0F /* MovieListDIContainer.swift */; };
+		A65E439922315F780020EC0F /* MovieListNameDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E439822315F780020EC0F /* MovieListNameDependencies.swift */; };
+		A65E439B223175790020EC0F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E439A223175790020EC0F /* UIImage.swift */; };
+		A65E439D22317B6A0020EC0F /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E439C22317B6A0020EC0F /* UIImageView.swift */; };
+		A65E43A0223184020020EC0F /* MovieListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E439F223184020020EC0F /* MovieListViewModelTest.swift */; };
+		A65E43A22231849B0020EC0F /* MockMovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E43A12231849B0020EC0F /* MockMovieListViewModel.swift */; };
+		A65E43AC22319CDE0020EC0F /* README in Resources */ = {isa = PBXBuildFile; fileRef = A65E43AB22319CDE0020EC0F /* README */; };
 		A69AF4C4219350B000190382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF4C3219350B000190382 /* AppDelegate.swift */; };
-		A69AF4C6219350B000190382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF4C5219350B000190382 /* ViewController.swift */; };
 		A69AF4C9219350B000190382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69AF4C7219350B000190382 /* Main.storyboard */; };
 		A69AF4CB219350B200190382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69AF4CA219350B200190382 /* Assets.xcassets */; };
 		A69AF4CE219350B200190382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69AF4CC219350B200190382 /* LaunchScreen.storyboard */; };
-		A69AF4D9219350B200190382 /* MosesAyankoyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF4D8219350B200190382 /* MosesAyankoyaTests.swift */; };
 		A69AF4E4219350B200190382 /* MosesAyankoyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF4E3219350B200190382 /* MosesAyankoyaUITests.swift */; };
+		A69AF5082193542A00190382 /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF5072193542A00190382 /* StateModel.swift */; };
+		A69AF50A2193544500190382 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF5092193544500190382 /* State.swift */; };
+		A69AF50D2193547400190382 /* IOContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF50C2193547400190382 /* IOContainer.swift */; };
+		A69AF510219354C700190382 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF50F219354C700190382 /* Endpoints.swift */; };
+		A69AF512219354FF00190382 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF511219354FF00190382 /* Configuration.swift */; };
+		A69AF5142193559D00190382 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF5132193559D00190382 /* Response.swift */; };
+		A69AF5182193565000190382 /* IRestful.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF5172193565000190382 /* IRestful.swift */; };
+		A69AF51A219356B900190382 /* IRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF519219356B900190382 /* IRemoteRepository.swift */; };
+		A69AF51C2193571500190382 /* DefaultConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF51B2193571500190382 /* DefaultConnection.swift */; };
+		A69AF51E2193576D00190382 /* WebMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF51D2193576D00190382 /* WebMethod.swift */; };
+		A69AF52421935C5E00190382 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AF52321935C5E00190382 /* Dictionary.swift */; };
+		A69AF549219466A800190382 /* Endpoints.plist in Resources */ = {isa = PBXBuildFile; fileRef = A69AF548219466A800190382 /* Endpoints.plist */; };
+		D8EB6AD92614B5BF00273A04 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EB6AD82614B5BF00273A04 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +67,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04DAB98E1FBCD405393DA391 /* Pods-MosesAyankoyaUITests.mytaxifake.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoyaUITests.mytaxifake.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoyaUITests/Pods-MosesAyankoyaUITests.mytaxifake.xcconfig"; sourceTree = "<group>"; };
+		0B4A62C9243A86FA3DEF6BE5 /* Pods-MosesAyankoyaUITests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoyaUITests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoyaUITests/Pods-MosesAyankoyaUITests.mock.xcconfig"; sourceTree = "<group>"; };
+		0CC11357C3E77349E36A989C /* Pods_MosesAyankoyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosesAyankoyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B8E6A15747168D01913CA2 /* Pods-MosesAyankoyaUITests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoyaUITests.development.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoyaUITests/Pods-MosesAyankoyaUITests.development.xcconfig"; sourceTree = "<group>"; };
+		3906EEE17B56BBE200C33BA4 /* Pods-MosesAyankoyaTests.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoyaTests.development.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoyaTests/Pods-MosesAyankoyaTests.development.xcconfig"; sourceTree = "<group>"; };
+		3FCF6BE20F33F1F1EA28DE7D /* Pods_MosesAyankoyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosesAyankoyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50740B214CA65D2CDEDDB936 /* Pods-MosesAyankoyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoyaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoyaTests/Pods-MosesAyankoyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		5ED6B9E7C2639E33F2188041 /* Pods-MosesAyankoya.mytaxifake.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoya.mytaxifake.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoya/Pods-MosesAyankoya.mytaxifake.xcconfig"; sourceTree = "<group>"; };
+		732096E236828573994816FC /* Pods-MosesAyankoya.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoya.mock.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoya/Pods-MosesAyankoya.mock.xcconfig"; sourceTree = "<group>"; };
+		89E24C8C59FB03D34053FFDC /* Pods-MosesAyankoya.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoya.development.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoya/Pods-MosesAyankoya.development.xcconfig"; sourceTree = "<group>"; };
+		8CA068E363BF5AA4F2AA068F /* Pods-MosesAyankoyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoyaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoyaUITests/Pods-MosesAyankoyaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A62764B62195E07B00F655BF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A62764BC2197245900F655BF /* SegueIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueIdentifier.swift; sourceTree = "<group>"; };
+		A62764BE2198417C00F655BF /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		A65E4384223058350020EC0F /* MovieItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItemCell.swift; sourceTree = "<group>"; };
+		A65E4386223059520020EC0F /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
+		A65E4388223060850020EC0F /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		A65E438A223060D10020EC0F /* MovieListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListDataProvider.swift; sourceTree = "<group>"; };
+		A65E438C223064210020EC0F /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		A65E438E223145F50020EC0F /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		A65E43902231492F0020EC0F /* MovieListRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRemoteRepository.swift; sourceTree = "<group>"; };
+		A65E4392223158F20020EC0F /* movies_query_parameters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movies_query_parameters.json; sourceTree = "<group>"; };
+		A65E439422315B180020EC0F /* GlobalFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFuncs.swift; sourceTree = "<group>"; };
+		A65E439622315F4D0020EC0F /* MovieListDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListDIContainer.swift; sourceTree = "<group>"; };
+		A65E439822315F780020EC0F /* MovieListNameDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListNameDependencies.swift; sourceTree = "<group>"; };
+		A65E439A223175790020EC0F /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		A65E439C22317B6A0020EC0F /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		A65E439F223184020020EC0F /* MovieListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTest.swift; sourceTree = "<group>"; };
+		A65E43A12231849B0020EC0F /* MockMovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMovieListViewModel.swift; sourceTree = "<group>"; };
+		A65E43AB22319CDE0020EC0F /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		A69AF4C0219350B000190382 /* MosesAyankoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosesAyankoya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69AF4C3219350B000190382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A69AF4C5219350B000190382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A69AF4C8219350B000190382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A69AF4CA219350B200190382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A69AF4CD219350B200190382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A69AF4CF219350B200190382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A69AF4D4219350B200190382 /* MosesAyankoyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosesAyankoyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A69AF4D8219350B200190382 /* MosesAyankoyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosesAyankoyaTests.swift; sourceTree = "<group>"; };
 		A69AF4DA219350B200190382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A69AF4DF219350B200190382 /* MosesAyankoyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosesAyankoyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69AF4E3219350B200190382 /* MosesAyankoyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosesAyankoyaUITests.swift; sourceTree = "<group>"; };
 		A69AF4E5219350B200190382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69AF5072193542A00190382 /* StateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModel.swift; sourceTree = "<group>"; };
+		A69AF5092193544500190382 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		A69AF50C2193547400190382 /* IOContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOContainer.swift; sourceTree = "<group>"; };
+		A69AF50F219354C700190382 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		A69AF511219354FF00190382 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A69AF5132193559D00190382 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		A69AF5172193565000190382 /* IRestful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRestful.swift; sourceTree = "<group>"; };
+		A69AF519219356B900190382 /* IRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRemoteRepository.swift; sourceTree = "<group>"; };
+		A69AF51B2193571500190382 /* DefaultConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultConnection.swift; sourceTree = "<group>"; };
+		A69AF51D2193576D00190382 /* WebMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMethod.swift; sourceTree = "<group>"; };
+		A69AF52321935C5E00190382 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		A69AF548219466A800190382 /* Endpoints.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Endpoints.plist; sourceTree = "<group>"; };
+		BB2D1CEC8C6D67B002916E8D /* Pods_MosesAyankoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MosesAyankoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F3ECD166E36D05010F90BA /* Pods-MosesAyankoyaTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoyaTests.mock.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoyaTests/Pods-MosesAyankoyaTests.mock.xcconfig"; sourceTree = "<group>"; };
+		D3B6F123438D1BC5EF926DEC /* Pods-MosesAyankoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoya.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoya/Pods-MosesAyankoya.release.xcconfig"; sourceTree = "<group>"; };
+		D8EB6AD82614B5BF00273A04 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F09DD4FC4B1C8B1D1D19B99A /* Pods-MosesAyankoyaTests.mytaxifake.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosesAyankoyaTests.mytaxifake.xcconfig"; path = "Pods/Target Support Files/Pods-MosesAyankoyaTests/Pods-MosesAyankoyaTests.mytaxifake.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41FB6890B3F1C5E08375107A /* Pods_MosesAyankoya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA370364820590ED0F6A31A /* Pods_MosesAyankoyaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +148,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4038F34A4194F04C673967DC /* Pods_MosesAyankoyaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62CDA266E60F49106C10C95F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB2D1CEC8C6D67B002916E8D /* Pods_MosesAyankoya.framework */,
+				0CC11357C3E77349E36A989C /* Pods_MosesAyankoyaTests.framework */,
+				3FCF6BE20F33F1F1EA28DE7D /* Pods_MosesAyankoyaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9143A07F7C5B833ED17548B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				732096E236828573994816FC /* Pods-MosesAyankoya.mock.xcconfig */,
+				5ED6B9E7C2639E33F2188041 /* Pods-MosesAyankoya.mytaxifake.xcconfig */,
+				D3B6F123438D1BC5EF926DEC /* Pods-MosesAyankoya.release.xcconfig */,
+				D1F3ECD166E36D05010F90BA /* Pods-MosesAyankoyaTests.mock.xcconfig */,
+				F09DD4FC4B1C8B1D1D19B99A /* Pods-MosesAyankoyaTests.mytaxifake.xcconfig */,
+				50740B214CA65D2CDEDDB936 /* Pods-MosesAyankoyaTests.release.xcconfig */,
+				0B4A62C9243A86FA3DEF6BE5 /* Pods-MosesAyankoyaUITests.mock.xcconfig */,
+				04DAB98E1FBCD405393DA391 /* Pods-MosesAyankoyaUITests.mytaxifake.xcconfig */,
+				8CA068E363BF5AA4F2AA068F /* Pods-MosesAyankoyaUITests.release.xcconfig */,
+				89E24C8C59FB03D34053FFDC /* Pods-MosesAyankoya.development.xcconfig */,
+				3906EEE17B56BBE200C33BA4 /* Pods-MosesAyankoyaTests.development.xcconfig */,
+				21B8E6A15747168D01913CA2 /* Pods-MosesAyankoyaUITests.development.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A62764BB21971EB100F655BF /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A65E4381223055E80020EC0F /* Movie List */ = {
+			isa = PBXGroup;
+			children = (
+				A65E4384223058350020EC0F /* MovieItemCell.swift */,
+				A65E4386223059520020EC0F /* MovieItem.swift */,
+				A65E4388223060850020EC0F /* MovieListViewController.swift */,
+				A65E438A223060D10020EC0F /* MovieListDataProvider.swift */,
+				A65E438E223145F50020EC0F /* MovieListViewModel.swift */,
+				A65E43902231492F0020EC0F /* MovieListRemoteRepository.swift */,
+				A65E439622315F4D0020EC0F /* MovieListDIContainer.swift */,
+				A65E439822315F780020EC0F /* MovieListNameDependencies.swift */,
+			);
+			path = "Movie List";
+			sourceTree = "<group>";
+		};
+		A65E4382223055F90020EC0F /* Movie Details */ = {
+			isa = PBXGroup;
+			children = (
+				A65E438C223064210020EC0F /* MovieDetailViewController.swift */,
+			);
+			path = "Movie Details";
+			sourceTree = "<group>";
+		};
+		A65E439E223183D90020EC0F /* Movie List */ = {
+			isa = PBXGroup;
+			children = (
+				A65E439F223184020020EC0F /* MovieListViewModelTest.swift */,
+				A65E43A12231849B0020EC0F /* MockMovieListViewModel.swift */,
+			);
+			path = "Movie List";
+			sourceTree = "<group>";
+		};
 		A69AF4B7219350B000190382 = {
 			isa = PBXGroup;
 			children = (
+				A65E43AB22319CDE0020EC0F /* README */,
 				A69AF4C2219350B000190382 /* MosesAyankoya */,
 				A69AF4D7219350B200190382 /* MosesAyankoyaTests */,
 				A69AF4E2219350B200190382 /* MosesAyankoyaUITests */,
 				A69AF4C1219350B000190382 /* Products */,
+				9143A07F7C5B833ED17548B0 /* Pods */,
+				62CDA266E60F49106C10C95F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +249,9 @@
 		A69AF4C2219350B000190382 /* MosesAyankoya */ = {
 			isa = PBXGroup;
 			children = (
+				A69AF51F2193589000190382 /* Features */,
+				A69AF5002193535300190382 /* Core */,
 				A69AF4C3219350B000190382 /* AppDelegate.swift */,
-				A69AF4C5219350B000190382 /* ViewController.swift */,
 				A69AF4C7219350B000190382 /* Main.storyboard */,
 				A69AF4CA219350B200190382 /* Assets.xcassets */,
 				A69AF4CC219350B200190382 /* LaunchScreen.storyboard */,
@@ -110,7 +263,7 @@
 		A69AF4D7219350B200190382 /* MosesAyankoyaTests */ = {
 			isa = PBXGroup;
 			children = (
-				A69AF4D8219350B200190382 /* MosesAyankoyaTests.swift */,
+				A69AF54F2194892C00190382 /* Features */,
 				A69AF4DA219350B200190382 /* Info.plist */,
 			);
 			path = MosesAyankoyaTests;
@@ -119,10 +272,103 @@
 		A69AF4E2219350B200190382 /* MosesAyankoyaUITests */ = {
 			isa = PBXGroup;
 			children = (
+				A62764BB21971EB100F655BF /* Features */,
 				A69AF4E3219350B200190382 /* MosesAyankoyaUITests.swift */,
 				A69AF4E5219350B200190382 /* Info.plist */,
 			);
 			path = MosesAyankoyaUITests;
+			sourceTree = "<group>";
+		};
+		A69AF5002193535300190382 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A69AF54C219478E500190382 /* Helper */,
+				A69AF5472194669800190382 /* Resources */,
+				A69AF52221935C4C00190382 /* Extensions */,
+				A69AF50E219354B700190382 /* Network Layer */,
+				A69AF50B2193546400190382 /* DI */,
+				A69AF5062193540F00190382 /* State */,
+				A62764B62195E07B00F655BF /* BaseViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A69AF5062193540F00190382 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				A69AF5072193542A00190382 /* StateModel.swift */,
+				A69AF5092193544500190382 /* State.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		A69AF50B2193546400190382 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				A69AF50C2193547400190382 /* IOContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		A69AF50E219354B700190382 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A69AF50F219354C700190382 /* Endpoints.swift */,
+				A69AF511219354FF00190382 /* Configuration.swift */,
+				A69AF5132193559D00190382 /* Response.swift */,
+				A69AF5172193565000190382 /* IRestful.swift */,
+				A69AF519219356B900190382 /* IRemoteRepository.swift */,
+				A69AF51B2193571500190382 /* DefaultConnection.swift */,
+				A69AF51D2193576D00190382 /* WebMethod.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		A69AF51F2193589000190382 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A65E4382223055F90020EC0F /* Movie Details */,
+				A65E4381223055E80020EC0F /* Movie List */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A69AF52221935C4C00190382 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A69AF52321935C5E00190382 /* Dictionary.swift */,
+				A65E439A223175790020EC0F /* UIImage.swift */,
+				A65E439C22317B6A0020EC0F /* UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A69AF5472194669800190382 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A69AF548219466A800190382 /* Endpoints.plist */,
+				A65E4392223158F20020EC0F /* movies_query_parameters.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A69AF54C219478E500190382 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A62764BC2197245900F655BF /* SegueIdentifier.swift */,
+				A62764BE2198417C00F655BF /* Dynamic.swift */,
+				A65E439422315B180020EC0F /* GlobalFuncs.swift */,
+				D8EB6AD82614B5BF00273A04 /* Utilities.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A69AF54F2194892C00190382 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A65E439E223183D90020EC0F /* Movie List */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +378,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A69AF4E8219350B200190382 /* Build configuration list for PBXNativeTarget "MosesAyankoya" */;
 			buildPhases = (
+				52A0441631679D3C90410D89 /* [CP] Check Pods Manifest.lock */,
 				A69AF4BC219350B000190382 /* Sources */,
 				A69AF4BD219350B000190382 /* Frameworks */,
 				A69AF4BE219350B000190382 /* Resources */,
+				392FD077F400FB922E53E39B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +397,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A69AF4EB219350B200190382 /* Build configuration list for PBXNativeTarget "MosesAyankoyaTests" */;
 			buildPhases = (
+				E5BE7D8F2501D3789C2F9899 /* [CP] Check Pods Manifest.lock */,
 				A69AF4D0219350B200190382 /* Sources */,
 				A69AF4D1219350B200190382 /* Frameworks */,
 				A69AF4D2219350B200190382 /* Resources */,
@@ -167,6 +416,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A69AF4EE219350B200190382 /* Build configuration list for PBXNativeTarget "MosesAyankoyaUITests" */;
 			buildPhases = (
+				656B42D6E9F5310EA8FE4686 /* [CP] Check Pods Manifest.lock */,
 				A69AF4DB219350B200190382 /* Sources */,
 				A69AF4DC219350B200190382 /* Frameworks */,
 				A69AF4DD219350B200190382 /* Resources */,
@@ -193,6 +443,7 @@
 				TargetAttributes = {
 					A69AF4BF219350B000190382 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					A69AF4D3219350B200190382 = {
 						CreatedOnToolsVersion = 10.0;
@@ -229,7 +480,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65E43AC22319CDE0020EC0F /* README in Resources */,
 				A69AF4CE219350B200190382 /* LaunchScreen.storyboard in Resources */,
+				A69AF549219466A800190382 /* Endpoints.plist in Resources */,
+				A65E4393223158F20020EC0F /* movies_query_parameters.json in Resources */,
 				A69AF4CB219350B200190382 /* Assets.xcassets in Resources */,
 				A69AF4C9219350B000190382 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +505,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		392FD077F400FB922E53E39B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MosesAyankoya/Pods-MosesAyankoya-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration/SwinjectAutoregistration.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosesAyankoya/Pods-MosesAyankoya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A0441631679D3C90410D89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MosesAyankoya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656B42D6E9F5310EA8FE4686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MosesAyankoyaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BE7D8F2501D3789C2F9899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MosesAyankoyaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A69AF4BC219350B000190382 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69AF4C6219350B000190382 /* ViewController.swift in Sources */,
+				A65E438F223145F50020EC0F /* MovieListViewModel.swift in Sources */,
+				A65E439D22317B6A0020EC0F /* UIImageView.swift in Sources */,
+				A62764BF2198417C00F655BF /* Dynamic.swift in Sources */,
+				A65E4387223059520020EC0F /* MovieItem.swift in Sources */,
+				A65E439722315F4D0020EC0F /* MovieListDIContainer.swift in Sources */,
+				A69AF5142193559D00190382 /* Response.swift in Sources */,
+				A65E43912231492F0020EC0F /* MovieListRemoteRepository.swift in Sources */,
+				A69AF5182193565000190382 /* IRestful.swift in Sources */,
+				A62764B72195E07B00F655BF /* BaseViewController.swift in Sources */,
+				A65E439522315B180020EC0F /* GlobalFuncs.swift in Sources */,
+				A69AF5082193542A00190382 /* StateModel.swift in Sources */,
+				A69AF51E2193576D00190382 /* WebMethod.swift in Sources */,
+				A65E439B223175790020EC0F /* UIImage.swift in Sources */,
+				A65E438B223060D10020EC0F /* MovieListDataProvider.swift in Sources */,
+				A69AF512219354FF00190382 /* Configuration.swift in Sources */,
+				A65E4389223060850020EC0F /* MovieListViewController.swift in Sources */,
+				A69AF51A219356B900190382 /* IRemoteRepository.swift in Sources */,
+				A65E4385223058350020EC0F /* MovieItemCell.swift in Sources */,
+				D8EB6AD92614B5BF00273A04 /* Utilities.swift in Sources */,
+				A69AF50D2193547400190382 /* IOContainer.swift in Sources */,
 				A69AF4C4219350B000190382 /* AppDelegate.swift in Sources */,
+				A69AF510219354C700190382 /* Endpoints.swift in Sources */,
+				A69AF52421935C5E00190382 /* Dictionary.swift in Sources */,
+				A69AF50A2193544500190382 /* State.swift in Sources */,
+				A62764BD2197245900F655BF /* SegueIdentifier.swift in Sources */,
+				A65E439922315F780020EC0F /* MovieListNameDependencies.swift in Sources */,
+				A65E438D223064210020EC0F /* MovieDetailViewController.swift in Sources */,
+				A69AF51C2193571500190382 /* DefaultConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +640,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69AF4D9219350B200190382 /* MosesAyankoyaTests.swift in Sources */,
+				A65E43A22231849B0020EC0F /* MockMovieListViewModel.swift in Sources */,
+				A65E43A0223184020020EC0F /* MovieListViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +688,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A69AF4E6219350B200190382 /* Debug */ = {
+		A65E43A5223196BE0020EC0F /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -371,7 +747,73 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Development;
+		};
+		A65E43A6223196BE0020EC0F /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E24C8C59FB03D34053FFDC /* Pods-MosesAyankoya.development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S99XNDFP5;
+				INFOPLIST_FILE = MosesAyankoya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Development;
+		};
+		A65E43A7223196BE0020EC0F /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3906EEE17B56BBE200C33BA4 /* Pods-MosesAyankoyaTests.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U845SG237L;
+				INFOPLIST_FILE = MosesAyankoyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosesAyankoya.app/MosesAyankoya";
+			};
+			name = Development;
+		};
+		A65E43A8223196BE0020EC0F /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B8E6A15747168D01913CA2 /* Pods-MosesAyankoyaUITests.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U845SG237L;
+				INFOPLIST_FILE = MosesAyankoyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MosesAyankoya;
+			};
+			name = Development;
 		};
 		A69AF4E7219350B200190382 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -428,30 +870,14 @@
 			};
 			name = Release;
 		};
-		A69AF4E9219350B200190382 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U845SG237L;
-				INFOPLIST_FILE = MosesAyankoya/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoya;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		A69AF4EA219350B200190382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B6F123438D1BC5EF926DEC /* Pods-MosesAyankoya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U845SG237L;
+				DEVELOPMENT_TEAM = 8S99XNDFP5;
 				INFOPLIST_FILE = MosesAyankoya/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,34 +885,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
-		};
-		A69AF4EC219350B200190382 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U845SG237L;
-				INFOPLIST_FILE = MosesAyankoyaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoyaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosesAyankoya.app/MosesAyankoya";
-			};
-			name = Debug;
 		};
 		A69AF4ED219350B200190382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50740B214CA65D2CDEDDB936 /* Pods-MosesAyankoyaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,28 +914,9 @@
 			};
 			name = Release;
 		};
-		A69AF4EF219350B200190382 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U845SG237L;
-				INFOPLIST_FILE = MosesAyankoyaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoyaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MosesAyankoya;
-			};
-			name = Debug;
-		};
 		A69AF4F0219350B200190382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA068E363BF5AA4F2AA068F /* Pods-MosesAyankoyaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +934,133 @@
 				TEST_TARGET_NAME = MosesAyankoya;
 			};
 			name = Release;
+		};
+		A69AF4F1219351FC00190382 /* Mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Mock;
+		};
+		A69AF4F2219351FC00190382 /* Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732096E236828573994816FC /* Pods-MosesAyankoya.mock.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S99XNDFP5;
+				INFOPLIST_FILE = MosesAyankoya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Mock;
+		};
+		A69AF4F3219351FC00190382 /* Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F3ECD166E36D05010F90BA /* Pods-MosesAyankoyaTests.mock.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U845SG237L;
+				INFOPLIST_FILE = MosesAyankoyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosesAyankoya.app/MosesAyankoya";
+			};
+			name = Mock;
+		};
+		A69AF4F4219351FC00190382 /* Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4A62C9243A86FA3DEF6BE5 /* Pods-MosesAyankoyaUITests.mock.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U845SG237L;
+				INFOPLIST_FILE = MosesAyankoyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MosesAyankoyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MosesAyankoya;
+			};
+			name = Mock;
 		};
 /* End XCBuildConfiguration section */
 
@@ -552,7 +1068,8 @@
 		A69AF4BB219350B000190382 /* Build configuration list for PBXProject "MosesAyankoya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A69AF4E6219350B200190382 /* Debug */,
+				A69AF4F1219351FC00190382 /* Mock */,
+				A65E43A5223196BE0020EC0F /* Development */,
 				A69AF4E7219350B200190382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -561,7 +1078,8 @@
 		A69AF4E8219350B200190382 /* Build configuration list for PBXNativeTarget "MosesAyankoya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A69AF4E9219350B200190382 /* Debug */,
+				A69AF4F2219351FC00190382 /* Mock */,
+				A65E43A6223196BE0020EC0F /* Development */,
 				A69AF4EA219350B200190382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -570,7 +1088,8 @@
 		A69AF4EB219350B200190382 /* Build configuration list for PBXNativeTarget "MosesAyankoyaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A69AF4EC219350B200190382 /* Debug */,
+				A69AF4F3219351FC00190382 /* Mock */,
+				A65E43A7223196BE0020EC0F /* Development */,
 				A69AF4ED219350B200190382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -579,7 +1098,8 @@
 		A69AF4EE219350B200190382 /* Build configuration list for PBXNativeTarget "MosesAyankoyaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A69AF4EF219350B200190382 /* Debug */,
+				A69AF4F4219351FC00190382 /* Mock */,
+				A65E43A8223196BE0020EC0F /* Development */,
 				A69AF4F0219350B200190382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

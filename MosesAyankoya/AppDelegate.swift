@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  MosesAyankoya
-//
-//  Created by Moses on 07/11/2018.
-//  Copyright © 2018 Moses Ayankoya. All rights reserved.
-//
+
 
 import UIKit
 
